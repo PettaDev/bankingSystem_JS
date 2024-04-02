@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ .login {
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+ }
+
+ .itens-logo {
+    display: flex;
+    flex-direction: column;
+    color: #FAFAFA;
+ }
+
+ .logo-tit {
+    display: flex;
+    justify-content: center;
+ }
+
+ .logo-sub {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+ }
+
+button {
+    display: flex;
+    background: #ffe9e9;
+    border-radius: 20px;
+    border: 0;
+    width: 185px;
+    height: 67px;   
+    color: #2f2325;
+    font-size: 24px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #00FF5F;
+    border-radius: 10px;
+
+}
+
+
