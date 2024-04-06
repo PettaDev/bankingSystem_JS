@@ -4,17 +4,19 @@ function entrar() {
   
 	if (senha == 3589) {
 	  alert("Bem vindo ao CASH-OUT, " + nome + " é um prazer ter você por aqui.");
+	  operacoes(); // chama a função "operacoes" apenas se "senha" == 3589
 	} else if (senha != 3589) {
 	  alert("Senha incorreta, por favor tente novamente.");
 	  entrar();
 	}
   }
-entrar();
 
 function operacoes() {
 	let escolha = parseInt(prompt("Selecione uma opção 1.) Saldo 2.) Depósito 3.) Saque 4.) Sair"));
 	let saldo = 100.5;
   
+	// SUGESTÃO: colocar um while para sempre que o usuário escolher uma opção voltar para as escolhas de operação, se o usuário escolher sair(opção 4) sai do looping.
+
 	switch (escolha) {
 		
 	  case 1:
@@ -48,5 +50,6 @@ function operacoes() {
 		break;
 	}
   }
-  
 
+// Adicionei as chamada da funão "entrar" aqui em baixo.
+entrar(); 
