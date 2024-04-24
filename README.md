@@ -14,3 +14,5 @@ Vamos aplicá-las uma a uma.
 Lembre-se de encontrar um ambiente onde possa se concentrar, entender e anotar tudo o que precisa ser feito e, depois de um tempo, pode ser bem interessante reunir-se com quem pode agregar a esse projeto.
 
 *https://forms.gle/hadwdUSVJeMqsv6g8*
+
+Implementações futuras -> Criar um interface com o tema: Banco Safra
